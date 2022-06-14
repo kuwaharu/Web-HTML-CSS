@@ -33,19 +33,32 @@
   list-style: none;
   display: flex;
 }
+.menu {
+  position: relative;
+}
+.menu::before {
+  content: "";
+  display: inline-block;
+  background-color: #000000;
+  height: 8px;
+  width: 2px;
+  position: absolute;
+  left: 0;
+  top: 30%;
+}
+.menu:first-child::before {
+  display: none;
+}
 .nav-menu li {
   font-size: 10px;
   text-align: center;
   padding: 0 50px 0 50px;
 }
-.nav-menu li:not(:last-child) {
-  border-right: 1px solid black;
-  height: 15px;
-}
 .nav-menu a {
   text-decoration: none;
   color: black;
-  font-size: 14px;}
+  font-size: 14px;
+}
 .nav-menu:nth-child(n+1) {
   color: gray;
 }
@@ -70,6 +83,7 @@
   text-align: center;
 }
 .scroll {
-  text-align: center;
-  margin-top: 220px;
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
 }
