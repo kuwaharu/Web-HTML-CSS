@@ -1,15 +1,19 @@
 .body {
-  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
   margin: auto;
-  padding-top: 40px;
+  background-color: #f2f3f7;
+  height: 759px;
+}
+.box {
+  max-width: 1280px;
   background-image: url("Group 9.svg");
   background-repeat: no-repeat;
   background-position: top;
-  background-color: #F2F3F7;
-  height: 759px;
-}
-.header {
-  width: 1000px;
+  position: relative;
+  padding-top: 40px;
   margin: auto;
 }
 .header-logo {
@@ -27,7 +31,9 @@
   display: flex;
   background-color: white;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
+  position: relative;
+  margin: auto;
 }
 .nav-menu {
   list-style: none;
@@ -59,20 +65,21 @@
   color: black;
   font-size: 14px;
 }
-.nav-menu:nth-child(n+1) {
+.nav-menu:nth-child(n + 1) {
   color: gray;
 }
 .title {
   width: 300px;
+  margin-left: 170px;
 }
 .title-txt {
-  color: #D4004E;
+  color: #d4004e;
   font-size: 70px;
   line-height: 85px;
   margin-bottom: 30px;
 }
 .sub-title-txt {
-  color: #D4004E;
+  color: #d4004e;
   font-size: 16px;
   font-weight: bold;
   padding-top: 10px;
