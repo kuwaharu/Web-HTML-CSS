@@ -9,7 +9,7 @@
 }
 .box {
   max-width: 1280px;
-  background-image: url("Group 9.svg");
+  background-image: url("Group_9.svg");
   background-repeat: no-repeat;
   background-position: top;
   position: relative;
@@ -101,13 +101,13 @@
   max-width: 1280px;
   margin: auto;
 }
-.ABOUT {
+.about {
   margin-top: 150px;
 }
-.ABOUT-box {
+.about-box {
   position: relative;
 }
-.title-ABOUT {
+.title-about {
   position: absolute;
   left: 200px;
   top: -60px;
@@ -127,6 +127,7 @@
   position: absolute;
   top: 20px;
   left: 140px;
+  z-index: 2;
 }
 .A-txt {
   position: relative;
@@ -138,27 +139,29 @@
   padding: 75px 59px;
   width: 73%;
 }
-.wrap-buttun {
+.wrap-button {
   text-align: center;
   margin-bottom: 120px;
 }
-.a-buttun {
+.a-button a {
   position: absolute;
-  top: 255px;
+  top: 270px;
   left: 600px;
   width: 150px;
   font-size: 13px;
   background-color: #d4004e;
   padding: 10px;
-}
-.a-buttun a {
+  display: block;
   text-decoration: none;
   color: #fff;
 }
-.SP-box {
+a:hover {
+  opacity: 0.5;
+}
+.sp-box {
   position: relative;
 }
-.SP {
+.sp {
   max-width: 1280px;
   margin: auto;
 }
@@ -179,7 +182,7 @@
   padding-left: 30px;
   margin-bottom: 60px;
 }
-.SP-box {
+.sp-box {
   position: relative;
   padding: 55px;
 }
@@ -276,24 +279,22 @@
   text-align: center;
   margin-top: 40px;
 }
-.buttun a {
+.button a {
   text-decoration: none;
   color: #fff;
-}
-.buttun {
-  display: inline-block;
   width: 150px;
   font-size: 13px;
   font-family: 'Noto Sans CJK JP';
-  text-align: center;
   background-color: #d4004e;
   padding: 10px;
+  display: block;
+  margin: auto;
 }
-.NEWS {
+.news {
   width: 70%;
   margin: auto;
 }
-.NEWS_area {
+.news_area {
   justify-content: center;
   margin-top: 125px;
   position: relative;
@@ -309,7 +310,7 @@
   top: 15px;
   left: -25px;
 }
-.title-NEWS {
+.title-news {
   position: absolute;
   left: 30px;
   top: -63px;
@@ -436,27 +437,28 @@
   text-decoration: none;
   color: #fff;
 }
-.fb-buttun {
-  display: inline-block;
-  text-align: center;
+.fb-button a{
+  display: block;
   background-color: #fff;
   width: 15%;
-  color: #333333;
   font-family: "Noto Sans CJK JP";
   padding: 10px;
-  margin-bottom: 50px;
-}
-.fb-buttun a {
   text-decoration: none;
   color: #333333;
+  margin: auto;
+}
+.fb-button {
+  margin-bottom: 50px;
+}
+.copy-light_area {
   text-align: center;
 }
 .copy-light {
   color: #fff;
-  text-align: center;
   font-family: "Noto Sans CJK JP";
   font-size: 9px;
   font-weight: 700;
   line-height: 13px;
   letter-spacing: 0em;
+  vertical-align: middle;
 }
